@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+
+    background-color: rgb(5, 8, 40);
+}
+.joker{
+    width: 100px;
+    height: 50px;
+    border: 2px solid peachpuff;
+    border-radius: 20%;
+    background-color: #ffe2e2;
+    font-family:cursive;
+    transition: background-color 0.2s , box-shadow 0.2, transform 0.1s;
+}
+.joker:hover{
+    background-color: rgb(255, 241, 112);
+    color :aquamarine #ffffff;
+    box-shadow: 0 0 5px 1px rgb(255, 230, 0);
+}
+.joker:active {
+    background-color:rgb(153, 255, 221) ;
+    transform: scale(0.95);
+}
+h1 { 
+    color: rgb(255, 230, 0);
+}
+#random-jokes {
+    color:rgb(153, 255, 221);
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:3rem 0.5rem;
+    font-variant: small-caps
+    ;
+}
